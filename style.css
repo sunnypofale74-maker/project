@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #ff1744, #ff8a80);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* COMMON BOX */
+.box {
+    display: none;
+    background: #fff5f7;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+#page1 {
+    display: block;
+}
+
+/* HEADINGS */
+h1, h2 {
+    color: #d81b60;
+    margin-bottom: 15px;
+}
+
+/* BUTTONS */
+.btns {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.yes {
+    background: #e91e63;
+    color: white;
+}
+
+.no {
+    background: #555;
+    color: white;
+}
+
+/* STICKERS */
+.sticker {
+    width: 60px;
+    margin: 5px;
+}
+
+/* BOOK SECTION */
+.book-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.book {
+    width: 240px;
+    height: 320px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.book-content img {
+    display: none;
+    width: 220px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.book-content img.active {
+    display: block;
+}
